@@ -1,0 +1,72 @@
+body{
+  background-image: url("https://media.istockphoto.com/photos/abstract-digital-network-communication-picture-id1289956619?k=20&m=1289956619&s=612x612&w=0&h=gpct-Vu0SjX4RVqN2L62xsN7Amrekz_KAJflDwjV4Rw=");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: max-content;
+  background-size: cover;
+}
+h1{
+  text-align: center;
+  color: lightblue;
+}
+.nav ul li{
+  display: inline-block;
+  padding: 10px;
+  font-size: 30px;
+  border: 10px solid blue;
+}
+#about ol li{
+  font-style: italic;
+  text-decoration:underline;
+  font-size: medium;
+  color: blue;
+  
+}
+#work p{
+    font-family: 'Roboto';
+    src: url('Roboto-ThinItalic-webfont.eot');
+    src: url('Roboto-ThinItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Roboto-ThinItalic-webfont.woff') format('woff'),
+         url('Roboto-ThinItalic-webfont.ttf') format('truetype'),
+         url('Roboto-ThinItalic-webfont.svg#RobotoThinItalic') format('svg'); (under the Apache Software License). 
+    font-weight: 200;
+    font-style: italic;
+    color: blue;
+    text-align: center;
+}
+#work h2{
+  text-align: center;
+  color: lightblue;
+}
+
+#work iframe{
+  padding-left: 390px;
+  padding-right: 50px;
+}
+#about ol{
+  line-height: 1cm;
+  padding-right: 20px;
+  text-align: center;
+  list-style-position: inside;
+}
+#about h2{
+  text-align: center;
+  color: lightblue;
+}
+
+
+
+
+nav ul {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 500px;
+}
+#contact{
+  color: blue;
+}
+#contact h2{
+  color: lightblue;
+}
+
