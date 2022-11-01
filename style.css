@@ -1,72 +1,193 @@
-body{
-  background-image: url("https://media.istockphoto.com/photos/abstract-digital-network-communication-picture-id1289956619?k=20&m=1289956619&s=612x612&w=0&h=gpct-Vu0SjX4RVqN2L62xsN7Amrekz_KAJflDwjV4Rw=");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  height: max-content;
-  background-size: cover;
-}
-h1{
-  text-align: center;
-  color: lightblue;
-}
-.nav ul li{
+ul li {
+  margin: 0;
+  padding: 0;
   display: inline-block;
-  padding: 10px;
-  font-size: 30px;
-  border: 10px solid blue;
+  overflow: hidden;
 }
-#about ol li{
-  font-style: italic;
-  text-decoration:underline;
-  font-size: medium;
-  color: blue;
-  
-}
-#work p{
-    font-family: 'Roboto';
-    src: url('Roboto-ThinItalic-webfont.eot');
-    src: url('Roboto-ThinItalic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('Roboto-ThinItalic-webfont.woff') format('woff'),
-         url('Roboto-ThinItalic-webfont.ttf') format('truetype'),
-         url('Roboto-ThinItalic-webfont.svg#RobotoThinItalic') format('svg'); (under the Apache Software License). 
-    font-weight: 200;
-    font-style: italic;
-    color: blue;
-    text-align: center;
-}
-#work h2{
-  text-align: center;
-  color: lightblue;
+ul li img {
+  float: left;
 }
 
-#work iframe{
-  padding-left: 390px;
-  padding-right: 50px;
-}
-#about ol{
-  line-height: 1cm;
-  padding-right: 20px;
-  text-align: center;
-  list-style-position: inside;
-}
-#about h2{
-  text-align: center;
-  color: lightblue;
+#x {
+  color: aquamarine;
 }
 
-
-
-
-nav ul {
-  width: 100%;
+.header {
   display: flex;
   justify-content: center;
-  gap: 500px;
+  letter-spacing: 3px;
+  text-overflow: clip;
+  color: aquamarine;
 }
-#contact{
-  color: blue;
+.text {
+  display: flex;
+  justify-content: right;
+  gap: 50px;
+  text-indent: 10px;
+  letter-spacing: 1px;
+  line-height: 40px;
+  font-style: italic;
+  font-size: 18px;
 }
-#contact h2{
-  color: lightblue;
+.img {
+  padding-left: 700px;
+}
+.buttons {
+  display: flex;
+  justify-content: space-around;
+}
+.button1 {
+  background-color: mediumspringgreen;
+  border-radius: 20px;
+  color: white;
+  padding: 20px 32px;
+  text-align: center;
+  font-size: 40px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  width: 400px;
+  height: 400px;
+}
+.button2 {
+  background-color: blue;
+  border-radius: 20px;
+  color: white;
+  padding: 20px 32px;
+  text-align: center;
+  font-size: 40px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  width: 400px;
+  height: 400px;
+}
+.button3 {
+  background-color: #1b2734;
+  border-radius: 20px;
+  color: white;
+  padding: 20px 32px;
+  text-align: center;
+  font-size: 40px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  width: 400px;
+  height: 400px;
+}
+button:hover {
+  opacity: 1;
 }
 
+.dropbtn {
+  font-size: 13px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+}
+
+.dropdown-content a {
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.grid-item {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+.y {
+  font-size: 30px;
+  color: #06c7ad;
+}
+.thirdpart p {
+  border: 1000px;
+  padding: 100px;
+  background: #79d8cb;
+  background-clip: border-box;
+  font-size: 40px;
+  display: flex;
+  justify-content: left;
+}
+#one {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  color: #00b39b;
+}
+#two {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  color: #00b39b;
+}
+#three {
+  text-align: center;
+}
+#four {
+  text-align: center;
+}
+#five {
+  text-align: center;
+}
+
+.logo_container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.logo_container img {
+  width: 50px;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 10000;
+  padding: 10px;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.logo_container p {
+  font-size: 36px;
+  margin: 0;
+}
+.doc {
+  color: #00b39b;
+}

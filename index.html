@@ -1,59 +1,161 @@
 <!DOCTYPE html>
 <html>
   <head>
-	<link rel="stylesheet" href="./style.css">
-    <title>
-      Portfolio
-    </title>
+    <title>Docplanner</title>
+    <link
+      rel="icon"
+      href="https://www.docplanner.com/img/sygnet.png"
+      type="image/icon type"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
   <body>
-    <header>
-    <h1>Portfolio</h1>
-    <nav class= "nav">
-    <ul>
-    <li><a href="#about">about</a></li>
-    <li><a href="#work">work</a></li>
-    <li><a href="#contact">contact</a></li>
-  </ul>
-  </nav>
-  </header>
-  <main>
-    <section id = about>
-      <h2>About</h2>
-      <ol>
-        <li>Name:Abdelrhman</li>
-        <li>age:19</li>
-        <li>email:ahssfbn@gmail.com</li>
-        <li>major:AI</li>
-        <div class ="img"><img width="300" height="200" src="https://images.unsplash.com/photo-1510915228340-29c85a43dcfe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="me" />
-        </div></ol>
+    <nav>
+      <div class="logo_container">
+        <img src="https://www.docplanner.com/img/sygnet.png" alt="icon" />
+        <p><span class="doc">Docplanner</span> Group</p>
+      </div>
+      <ul>
+        <li>
+          <a
+            id="x"
+            href="file:///C:/Users/yara%20mahmoud/OneDrive/Desktop/GoMyCode/web%20development%202/index.html"
+          >
+            About us
+          </a>
+        </li>
+        <li><a href="https://www.docplanner.com/career">Career</a></li>
+        <li>
+          <div class="dropdown">
+            <button class="dropbtn">Departments</button>
+            <div class="dropdown-content">
+              <a href="https://www.docplanner.com/department?dep=marketing"
+                >Mraketing and PR</a
+              >
+              <a href="https://www.docplanner.com/department?dep=customer"
+                >Coustmer Success and Sales</a
+              >
+              <a href="https://www.docplanner.com/department?dep=it"
+                >IT, Product, Data</a
+              >
+              <a href="https://www.docplanner.com/department?dep=finance"
+                >Finance and Administraion</a
+              >
+              <a href="https://www.docplanner.com/department?dep=hr"
+                >HR and More</a
+              >
+            </div>
+          </div>
+        </li>
+      </ul>
+    </nav>
+    <img
+      class="img"
+      src="https://www.docplanner.com/img/sygnet.png"
+      alt="icon"
+    />
+    <h1 class="header">Making the healthcare experience more human</h1>
+    <div class="text">
+      <p>
+        We want patients to find the perfect doctor and book an appointment in
+        the most easy way. The patient journey should be enjoyable, and that's
+        why we are always next to them: to help them find the best possible
+        care. Anytime, anywhere.
+      </p>
+      <p>
+        We also help doctors to better manage their practice and build their
+        online reputation. With our integrated end-to-end solution, doctors are
+        able not only to improve their online presence, but also to devote their
+        time to what really matters: their patients.
+      </p>
+    </div>
+    <div class="buttons">
+      <button class="button1">
+        <span
+          >For patients <br />Find a doctor, book a visit and solve any
+          health-related doubt
+        </span>
+      </button>
+      <button class="button2">
+        <span
+          >For patients <br />For doctors Save time managing visits and cut
+          no-shows by half
+        </span>
+      </button>
+      <button class="button3">
+        <span
+          >For patients <br />For clinics Deliver an exceptional patient
+          experience in your clinic
+        </span>
+      </button>
+    </div>
+    <div class="grid-container">
+      <div class="y">
+        <p>We are a global</p>
+        <p>country</p>
+        <p>with local culture</p>
+      </div>
+      <div class="grid-item">
+        <a href="https://www.znanylekarz.pl/">ZnanyLekars</a>
+      </div>
+      <div class="grid-item">
+        <a href="https://www.doctoralia.es/">Doctoralia</a>
+      </div>
+      <div class="grid-item">
+        <a href="https://www.miodottore.it/">MioDottore</a>
+      </div>
+      <div class="grid-item">
+        <a href="https://www.doktortakvimi.com/">DoktorTakvimi</a>
+      </div>
+      <div class="grid-item">
+        <a href="https://www.znamylekar.cz/">ZnamyLekar</a>
+      </div>
+      <div class="grid-item">
+        <a href="https://www.tuotempo.com/">TUTEMP</a>
+      </div>
+      <div class="grid-item">
+        <a href="https://www.gipo.it/">ZnanyLekars</a>
+      </div>
+      <div class="grid-item">
+        <a href="https://clinic-cloud.com/">ZnanyLekars</a>
+      </div>
+      <div class="grid-item">
+        <a href="https://www.jameda.de/">ZnanyLekars</a>
+      </div>
+    </div>
 
-    </section>
-      <section id = work>
-        <h2>Work</h2>
-        <p>Worked at GOMYCODE as a programmer</p>
-        <p>Founder and vice head in TedxNU</p>
-        <P>Worked at smart technology company as an arduino developer</P>
-        <iframe width="750" height="315" src="https://www.youtube.com/embed/7mGOLNGDazU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="thirdpart">
+      <p>
+        The world's biggest healthcare platform. We work from 9 offices all over
+        the world, bringing Docplanner Group to life in 13 countries.
+      </p>
+    </div>
 
-
-
-
-      </section>
-
-      
-
-    </section>
-    <section id="contact">
-      <h2>Contact</h2>
-      <form>
-          <label for="email">Email Address:</label>
-          <input type="email" name="Email" id="email">
-          <label for="password">Password:</label>
-          <input type="password" name="password" id="password">
-          <input type="submit">
-      </form>
-  </section>
-  </main>
+    <div class="fourthpart">
+      <p id="one">Improve the lives of millions.</p>
+      <p id="two">Change yours forever.</p>
+      <p id="three">
+        More than 2600 team mates share our same vision, goals and passion.
+      </p>
+      <p id="four">
+        With offices in Warsaw, Barcelona, Munich, Istanbul, Rome, Rio, Bologna,
+      </p>
+      <p id="five">
+        Mexico City and Curitiba, our search for great talent never stops.
+      </p>
+    </div>
   </body>
 </html>
